@@ -2,7 +2,7 @@ import telebot
 from googletrans import Translator
 
 
-bot = telebot.TeleBot('5927677920:AAHMktLf6_RRoc9piTA3mP5pzkRmBjGTmq4')  # токен
+bot = telebot.TeleBot('')  # токен
 
 
 @bot.message_handler(commands=['start'])
